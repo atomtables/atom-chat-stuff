@@ -1,0 +1,11 @@
+{
+  "name": "atom-chat-server",
+  "version": "1.0.0",
+  "description": "server for my atom chat app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"what did you expect\""
+  },
+  "author": "",
+  "license": "ISC"
+}
