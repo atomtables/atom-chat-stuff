@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"what did you expect\""
   },
-  "author": "",
-  "license": "ISC"
+  "author": "adithv08",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithv08/atom-chat-stuff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adithv08/atom-chat-stuff/issues"
+  },
+  "homepage": "https://github.com/adithv08/atom-chat-stuff#readme",
+  "dependencies": {
+    "socket.io": "^4.5.4"
+  }
 }
