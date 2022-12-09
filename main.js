@@ -4,7 +4,7 @@ const io = new Server();
 
 io.on("connection", (socket) => {
   console.log("something");
-  socket.on('hi', (arg) => {
+  socket.on('send_message', (arg) => {
     socket.emit("new_message", "deez nuts")
   })
 });
