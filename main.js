@@ -8,6 +8,10 @@ io.on("connection", (socket) => {
     console.log("New message has been sent. Message says: " + message + " and sent from " + username)
     socket.broadcast.emit("new_message", message + "%&##%%@" + username)
   })
+  socket.on("message_typing", (username) => {
+    console.log(username + " is typing")
+    socket.broadcast.emit("message_typing_client", username)
+  })
 });
 
 io.listen(3000);
